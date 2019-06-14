@@ -1,3 +1,56 @@
+body{
+  background-color: #88CCFF;
+}
+
 .App {
   text-align: center;
+}
+.village{
+  z-index: -1;
+  position: absolute;
+}
+.Smurfs ul{
+  display: flex;
+}
+
+.Smurf{
+  background-color: #fffffff5;
+  padding: 20px;
+  border-radius: 20%;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  height: 34px;
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: #88CCFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+.SmurfFormContainer{
+  background-color: #ffffffb4;
+  width: 50%;
+  height: 65vh;
+  margin: 0 auto;
+
+}
+
+.SmurfForm{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  height: 65vh;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
